@@ -1,0 +1,38 @@
+For an array of integers nums, an identical twin is defined as pair (i, j) where nums[i] is equal to nums[j] and i < j.
+
+Examples
+Array: [1, 2, 3, 2, 1]
+Number of Identical Twins: 2
+Explanation:
+Identical Twins: [[1, 1], [2, 2]]
+Indexes: (0, 4), (1, 3)
+Array: [1, 2, 2, 3, 2, 1]
+Number of Identical Twins: 4
+Explanation:
+Identical Twins: [[1, 1], [2, 2], [2, 2], [2, 2]]
+Indexes: (0, 5), (1, 2), (1, 4), (2, 4)
+Array: [1, 1, 1, 1]
+Number of Identical Twins: 6
+Explanation:
+Identical Twins: [[1, 1], [1, 1], [1, 1], [1, 1], [1, 1], [1, 1]]
+Indexes: (0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)
+Given an array nums, find the number of identical twins.
+
+Testing
+Input Format
+The first line contains 'T' denoting the no. of test cases.
+
+Next T lines each contain a number 'n' denoting the number of elements, followed by n space-separated numbers denoting the array elements.
+
+Output Format
+T lines each contain a number denoting the number of identical twins.
+
+Sample Input
+3
+5 1 2 3 2 1
+6 1 2 2 3 2 1
+4 1 1 1 1
+Expected Output
+2
+4
+6
